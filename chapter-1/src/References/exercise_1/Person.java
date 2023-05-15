@@ -21,10 +21,10 @@ public class Person {
         System.out.println("last dog's name is " + persons[2].name);
 
         int i = 0;
-        do {
+        while (i < persons.length) {
             persons[i].walk();
             ++i;
-        } while(i < persons.length);
+        }
     }
 
     public void walk() {
