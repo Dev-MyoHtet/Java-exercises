@@ -7,7 +7,7 @@ public class Hobbits {
         Hobbits[] hobbit = new Hobbits[3];
 
         int i = 0;
-        while (i < 4) {
+        while (true) {
             i = i + 1;
             hobbit[i] = new Hobbits();
             hobbit[i].name = "coding";
